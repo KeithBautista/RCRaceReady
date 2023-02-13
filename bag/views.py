@@ -1,6 +1,20 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, reverse
 
 # Create your views here.
+
+def adjust_bag(request, item_id):
+    """ Adjusting the quantity of the specified product to the specified amount """
+
+    quantity = int(request.POST.get('quantity'))  # converted to integer
+    bag = request.session.get('bag', {})
+
+    if quantity > 0:
+        bag[item_id] = quantity
+    else:
+        bag.pop[item_id]
+
+    request.session['bag'] = bag
+    return redirect(reverse('view_bag'))
 
 
 def view_bag(request):

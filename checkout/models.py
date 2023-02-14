@@ -6,8 +6,6 @@ from django.conf import settings
 
 from products.models import Product
 
-# Create your models here.
-
 
 class Order(models.Model):
     order_number = models.CharField(max_length=32, null=False, editable=False)
@@ -27,7 +25,7 @@ class Order(models.Model):
 
     def _generate_order_number(self):
         """
-        Generate a random 32 char, unique order number using UUID
+        Generate a random, unique order number using UUID
         """
         return uuid.uuid4().hex.upper()
 
@@ -41,7 +39,7 @@ class Order(models.Model):
             self.delivery_cost = self.order_total * settings.STANDARD_DELIVERY_PERCENTAGE / 100
         else:
             self.delivery_cost = 0
-        self.grand_total = self.order_total + self.delivery_cost  # fetch total and save instance
+        self.grand_total = self.order_total + self.delivery_cost
         self.save()
 
     def save(self, *args, **kwargs):
@@ -51,7 +49,7 @@ class Order(models.Model):
         """
         if not self.order_number:
             self.order_number = self._generate_order_number()
-        super().save(*args, **kwargs)  # overwrite original save
+        super().save(*args, **kwargs)
 
     def __str__(self):
         return self.order_number

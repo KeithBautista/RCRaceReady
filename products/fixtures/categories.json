@@ -3,8 +3,8 @@
       "pk": 1,
       "model": "products.category",
       "fields": {
-        "name": "rc_cars",
-        "friendly_name": "RC Cars"
+        "name": "activewear",
+        "friendly_name": "Activewear"
       }
     },
     {

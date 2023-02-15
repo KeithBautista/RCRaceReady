@@ -10,7 +10,7 @@
       "category": 1,
       "rating": 4.6,
       "image_url": "",
-      "image": "DP0709201205510679M.jpg"
+      "image": "ftxMiniRanger.jpg"
     }
   },
   {
@@ -24,7 +24,7 @@
       "category": 1,
       "rating": 4.6,
       "image_url": "",
-      "image": "DP0113201617034987M.jpg"
+      "image": "ftxOutbackMini.jpg"
     }
   },
   {
@@ -116,13 +116,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002690715",
-      "name": "Protech Performance Sheet Set",
-      "description": "Protech sheets are like activewear for your bed! The same cutting edge technology that is used in today's sportswear is also used in these Protech Plus sheets to give you a better night's sleep. Breathable ultra-fine microfiber wicks away moisture, keeping your body cool throughout the night while a 4-way stretch component allows you comfort in movement. This stretching ability also helps while making the bed, fitting most premium size mattresses; you won't have to struggle to get the sheets to fit all the way around.  4-way stretch component allows you comfort in movement available in a variety of solid colors microfiber knit fits mattresses up to 19\" deep Set includes: fitted sheet flat sheet 2 pillowcases Polyester/spandex. Washable. Imported. Full: 54x75 Queen: 60x80 King: 78x80 Cal. King: 72x84",
+      "name": "FTX Vortex High Speed R/C Race Boat",
+      "description": "This summer get ready to hit the water with the new Vortex fast electric r/c boat from FTX. With a range of up to 100m the Vortex is perfect for pools, ponds and even lakes. Featuring an attractive moulded hull with printed graphics, at 44cm long the Vortex is the ideal size for first time r/c boat enthusiasts.",
       "price": 169.99,
       "category": 2,
       "rating": 4.7,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1020201517025390M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1020201517025390M.jpg"
+      "image_url": "",
+      "image": "ftxVortexHighSpeedBoat.jpg"
     }
   },
   {
@@ -158,13 +158,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002820069",
-      "name": "Nike 3-pk. Performance Crew Socks - Boys",
-      "description": "Keep him moving in comfort all day with quality Nike crew socks.  arch support reinforced toe and heel cotton/polyester/spandex washable imported",
-      "price": 19.99,
+      "name": "Arrma INFRACTION",
+      "description": "Hit the streets at high speed in resto-mod truck style with the 1/8 scale INFRACTION® 4X4 3S BLX All-Road RTR. It's 65 mph+ capable in optimum conditions, with ARRMA® engineering and Spektrum™ electronics providing exceptional durability and control.",
+      "price": 500.00,
       "category": 1,
       "rating": 4.6,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0510201317010521M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0510201317010521M.jpg"
+      "image_url": "",
+      "image": "armaInfraction.jpg"
     }
   },
   {
@@ -186,13 +186,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002910572",
-      "name": "Stafford 4-pk. Blended Cotton A-Shirts",
+      "name": "Esky 300 V2 RTF Fixed Pitch Flybarless Heli",
       "description": "Stafford Big & Tall ribbed athletic t-shirts deliver the tagless comfort and breathable performance he needs.  super soft, quick-drying, durable fabric preshrunk for lasting fit reinforced durable stitching tag free cotton/polyester washable imported ",
       "price": 26.99,
       "category": 5,
       "rating": 4.7,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/0900631B81C9387BM.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "0900631B81C9387BM.jpg"
+      "image_url": "",
+      "image": "esky300V2.jpg"
     }
   },
   {
@@ -200,13 +200,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002990740",
-      "name": "Stafford 4-pk. Heavyweight Crewneck T-ShirtsBig & Tall",
+      "name": "Align T-Rex 500",
       "description": "Soft and comfortable, two of his favorite things together in this heavyweight cotton tee from Stafford.  combed cotton heavier fabric for durability preshunk for lasting fit premium seaming reduces twisting tag free cotton washable imported",
-      "price": 48.99,
+      "price": 219.99,
       "category": 5,
       "rating": 4.8,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1029201317111469M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1029201317111469M.jpg"
+      "image_url": "",
+      "image": "alignTrex500.jpg"
     }
   },
   {
@@ -214,13 +214,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003050248",
-      "name": "Levi's 529 Curvy Bootcut Jeans",
-      "description": "Levis 529 curvy bootcut jeans are flattering and perfect for any timeday or night.  sits below the waist slim fit through hip and thigh bootcut leg with 18\" opening smooth bottom 8\" front rise; 15\" back rise cotton/polyester/elastane washable imported misses average: 32\" inseam ",
-      "price": 65.99,
+      "name": "Ripmax WOT 4 Xtreme Petrol Plane",
+      "description": "Size does matter! Take the award winning WOT-4 ARTF and go large....VERY large! This latest supersized version WOT-4 Xtreme ARTF shares all the brilliant design features that made the original the U.K’s favourite sport model. And more really does mean more! More performance, more stability, more towing capability and even more fun!",
+      "price": 330.99,
       "category": 6,
       "rating": 4.4,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0918201520303373C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0918201520303373C.jpg"
+      "image_url": "",
+      "image": "ripmaxWOTXtreme.jpg"
     }
   },
   {
@@ -228,13 +228,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003070787",
-      "name": "Worthington Essential Short-Sleeve Tee - Plus",
-      "description": "Our stretchy jersey knit tee's gently pleated neckline makes a simply sweet impression.  pleated u-neck short sleeves polyester/spandex washable imported ",
+      "name": "Spirit Heli Kit",
+      "description": "Nine Eagles (NE-R/C-210A-FREE-SPIRIT-G) 4CH Free Spirit Micro (Green) Helicopter 2.4GHz",
       "price": 33.99,
       "category": 5,
       "rating": 4.4,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1119201520340305C.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1119201520340305C.jpg"
+      "image_url": "",
+      "image": "spiritHeliKit.jpg"
     }
   },
   {
@@ -242,13 +242,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003090182",
-      "name": "Marvel Comics Avengers Hulk Pillow Buddy",
-      "description": "The Hulk may be tough, but he's actually a real softy. Get to know his softer side with this fun Hulk-shaped pillow.  adds a playful layer of texture and comfort to bed's decor measures 15x9x20\"H Polyester with polyester fill. Spot clean. Imported.",
+      "name": "Joysway Offshore Warrior Lite V3",
+      "description": "Offering the perfect blend of hi-performance at an incredible low price, the new Joysway Offshore Warrior Lite V3 is all set to make a big splash! The hull is moulded form tough ABS plastic for optimal strength and is pre-finished in a stunning orange scheme. This boat is an RTR, which means 'Ready to Run' so all the hard work has been done for you, the boat is pre-built and has all the electronics pre-installed and ready to use. Simply charge and Go!",
       "price": 59.99,
       "category": 2,
       "rating": 4.8,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0807201317072274M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0807201317072274M.jpg"
+      "image_url": "",
+      "image": "joyswayOffshoreWarrior.jpg"
     }
   },
   {
@@ -256,13 +256,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003090186",
-      "name": "Marvel Spiderman Pillow Buddy",
-      "description": "Now your child can sling webs next to his favorite wall crawler with this Spider-Man pillow buddy. shaped like everyone's favorite web head measures 15x9x20\"H Polyester with polyester fill. Spot clean. Imported.",
+      "name": "Vector SR65 Brushless",
+      "description": "The Vector SR65 will have you racing across your local pond or lake looking like a powerboating pro in no time. Arguably the fastest, most exciting R/C boat in its class the SR65's speed is generated by a pre-installed 2600KV water-cooled brushless motor and 20A water-cooled, water-proof brushless ESC. Supplied ARTR (Almost Ready-To-Run), the Vector comes 100% factory-assembled and features a durable ABS hull with eye-catching pre-applied graphics. The included 2-channel 2.4GHz radio has fully proportional steering and throttle control leaving little to buy but a suitable, cheap-as-chips 3S 2200mAh LiPo and charger. Get one with an XT-60 connector and you'll be making waves within minutes of opening the box.",
       "price": 60.99,
       "category": 2,
       "rating": 5,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0807201317072924M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0807201317072924M.jpg"
+      "image_url": "",
+      "image": "vectorSR65Brushless.jpg"
     }
   },
   {

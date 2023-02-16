@@ -10,10 +10,20 @@ This website features an intuitive and easy-to-navigate interface, allowing you 
 README Table Content
 - [RCRaceReady](#design)
     - [Features](#features)
+        - [Home Page](#home-page)
+        - [Navbar](#navbar)
+        - [Login Page](#login-page)
+        - [Profile Information](#profile-information)
+        - [Registration Page](#registration-page)
+        - [Products Page](#products-page)
+        - [Sorting](#sorting)
+        - [Product Categories Mini](#product-categories-mini)
+        - [Shopping Cart](#shopping-cart)
+        - [Checkout Page](#checkout-page)
     - [Design](#design)
-        - [Home Page - Images Carousel](#home-page)
         - [Colours](#colours)
         - [Typography](#typography)
+    - [Admin Panel / Superuser](#admin-panel--superuser)
     - [AWS Setup Process](#aws-setup-process)
     - [AWS S3 Bucket](#aws-s3-bucket)
     - [IAM Set Up](#iam-set-up)
@@ -36,7 +46,7 @@ README Table Content
 # Features
 
 ## Home Page 
-![Home Page ](assets/readme/features/mainHomePage.png)
+![Home Page](assets/readme/features/mainHomePage.png)
 - The landing page is the first thing that the user sees, a pop of red with the car being the background, a slogan which mentions new collections are in store as well as a button below to route to said collections.
 
 ## Navbar
@@ -88,22 +98,37 @@ README Table Content
 
 ![Order Confirmation Summary](assets/readme/features/orderConfirmation.png)
 
-## Design
+# Design
 
-#### Colours
+## Colours
 ![Colours Palete](assets/readme/extras/colorWheel.png)<br>
 
 The color scheme was kept simple and default, #FFFFFF #000000 were used to mimick a race flag whilst #DB3545 on the other hand for reaching the red line on a tachometer in the car. While these are the major colors that take up the site, there are minimal colors using the bootstrap package that allows a user to be aware of changes made in the site using toasts. Along with this, other minimal colors were used for CTA luring the user to click.
 
-#### Typography
+## Typography
 
 - The standard Lato font family was used as the main font for the whole site.
 
-#### Imagery
+##  Imagery
 
 - The images that were used in the site were taken from [radiocontrolledshop](https://www.radiocontrolledshop.ie/), they were then saved within the media folder in the project to which then moved to AWS's S3 Bucket to be stored along with static files.
 
-### AWS S3 Bucket 
+## Admin Panel / Superuser
+
+![Admin Panel / Superuser](assets/readme/admin/adminProducts.png)
+
+- On the Admin Panel and as an admin/superuser I have full access to CRUD functionality. This means I can view, create, edit and
+  delete the following apps:
+
+<ol>
+  <li>Bag</li>
+  <li>Checkout</li>
+  <li>Home</li>
+  <li>Products</li>
+  <li>Profile</li>
+</ol>
+
+## AWS S3 Bucket 
 
 The deployed website utilizes AWS S3 Buckets to store static and media files. Here's a step-by-step guide to setting up an AWS S3 Bucket:
 
@@ -151,7 +176,7 @@ The deployed website utilizes AWS S3 Buckets to store static and media files. He
   <li>Save your changes.</li>
 </ol>
 
-### IAM Set Up
+## IAM Set Up
 
 <ol>
   <li>Search for IAM within the AWS navigation bar and select it.</li>
@@ -190,7 +215,7 @@ The deployed website utilizes AWS S3 Buckets to store static and media files. He
 <li>Download the "CSV file", which contains the user's access key and secret access key.</li>
 </ol>
 
-### Connecting AWS to the Project
+## Connecting AWS to the Project
 
 <ol>
 <li>In your terminal install the following packages by typing:</li>
@@ -314,7 +339,7 @@ To get started, you will need a Stripe account, which you can sign up for [here]
 - [Django GitHub](https://github.com/django/django)
 - [Python](https://www.djangoproject.com/)<br>
 
-### Django Packages
+## Django Packages
 
 - [Gunicorn](https://gunicorn.org/) as the server for Heroku
 - [Dj_database_url](https://pypi.org/project/dj-database-url/) to parse the database URL from the environment variables in Heroku
@@ -324,7 +349,7 @@ To get started, you will need a Stripe account, which you can sign up for [here]
 - [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) to style the forms
 - [Pillow](https://pypi.org/project/Pillow/) to process and save all the images downloaded through the database
 
-### Frameworks - Libraries - Programs Used
+## Frameworks - Libraries - Programs Used
 
 - [Bootstrap](https://getbootstrap.com/)
 - Was used to style the website, add responsiveness and interactivity
@@ -414,11 +439,11 @@ To get started, you will need a Stripe account, which you can sign up for [here]
 
 ## Credits
 
-### Content
+## Content
 
 - All the products, their images and descriptions were taken from [radiocontrolledshop](https://www.radiocontrolledshop.ie/)
 
-### Information Sources / Resources
+## Information Sources / Resources
 
 - [W3Schools - Python](https://www.w3schools.com/python/)
 - [Stack Overflow](https://stackoverflow.com/)

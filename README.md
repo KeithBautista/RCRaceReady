@@ -20,6 +20,7 @@ README Table Content
         - [Product Categories Mini](#product-categories-mini)
         - [Shopping Cart](#shopping-cart)
         - [Checkout Page](#checkout-page)
+        - [Privacy Policy](#privacy-policy)
     - [Design](#design)
         - [Colours](#colours)
         - [Typography](#typography)
@@ -97,6 +98,10 @@ README Table Content
 ![Notification Order Successful](assets/readme/features/notificationOrderSuccessful.png)
 
 ![Order Confirmation Summary](assets/readme/features/orderConfirmation.png)
+
+## Privacy Policy
+![Privacy Policy](assets/readme/features/privacyPolicy.png)
+- As we collect user data it is vital to let our users know how we will collect, use, and protect their data. In turn which is why I have included a privacy policy under "More" in the navbar.
 
 # Design
 

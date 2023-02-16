@@ -106,6 +106,29 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+/*Start of Underline Link Animation*/
+.cool-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff !important;
+
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #ffffff !important;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+/*End of Underline Link Animation*/
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {

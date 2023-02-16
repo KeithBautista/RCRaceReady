@@ -1,3 +1,5 @@
+# RCRaceReady - Introduction
+
 Project milestone 5 for Code Institute Full-stack development program: Django Framework.<br>
 RCReadyRace is an online store dedicated to providing the latest and greatest in remote controlled vehicles. Our inventory includes a wide variety of RC cars, trucks, planes, boats, and drones, perfect for both hobbyists and serious racers.
 
@@ -6,12 +8,100 @@ This website features an intuitive and easy-to-navigate interface, allowing you 
 [Live Project Here](https://rcraceready.herokuapp.com/)
 
 README Table Content
-
-
-- [AWS Setup Process](#aws-setup-process)
+- [RCRaceReady](#design)
+    - [Features](#features)
+    - [Design](#design)
+        - [Home Page - Images Carousel](#home-page)
+        - [Colours](#colours)
+        - [Typography](#typography)
+    - [AWS Setup Process](#aws-setup-process)
     - [AWS S3 Bucket](#aws-s3-bucket)
     - [IAM Set Up](#iam-set-up)
+    - [Connecting AWS to the Project](#connecting-aws-to-the-project)
+  - [Stripe Payments](#stripe-payments)
+    - [Payments](#payments)
+    - [Webhooks](#webhooks)
+  - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Django Packages](#django-packages)
+    - [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
+  - [Creating the Django app](#creating-the-django-app)
+  - [Deployment of This Project](#deployment-of-this-project)
+  - [Forking This Project](#forking-this-project)
+  - [Credits](#credits)
+    - [Content](#content)
+    - [Information Sources / Resources](#information-sources--resources)
+  - [Special Thanks](#special-thanks)
 
+# Features
+
+## Home Page 
+![Home Page ](assets/readme/features/mainHomePage.png)
+- The landing page is the first thing that the user sees, a pop of red with the car being the background, a slogan which mentions new collections are in store as well as a button below to route to said collections.
+
+## Navbar
+![Navbar](assets/readme/features/navbar.png)
+- The Navbar is responsive and can be both viewed in desktop and mobile view. Full screen will show case the whole width of the navbar whilst when on mobile a hamburger menu appears along with the options to pick from below it.
+
+![Navbar Mobile](assets/readme/features/navbarMobile.png)
+
+## Login Page
+![Login Page](assets/readme/features/loginPage.png)
+- The login page is your standard one whereby you are prompted to place in your username and password. Once account details are filled in, two buttons below allow you to go back to the homepage whilst the other enables you to login into your account.
+
+![Notification Signed In](assets/readme/features/notificationSignedIn.png)
+
+![Notification Signed Out](assets/readme/features/notificationSignOut.png)
+
+## Profile Information
+![Profile Information](assets/readme/features/profileInformation.png)
+- Once logged in, you can head to the top right and click on my profile. This allows you to change any details you have saved on your account. Along with this, if you have purchased any products previously. You can select the order number and see a summary.
+
+## Registration Page
+![Registration Page](assets/readme/features/registrationPage.png)
+- Similar to the login page, the registration page is simple and standard, one where details such as your email address, username, and password 2x are prompted. Again similar to the Login page, we have two buttons below which enables you to either go to login if an account is already present while the other enables you to sign up once all the details have been filled out.
+
+## Products Page
+![Products Page](assets/readme/features/productsPage.png)
+- The product page is the bread and butter of the site. It showcases different variety of remote controlled vehicles ranging from land to sea. Along with this you are able to see the price, category as well as the rating given to the product.
+
+## Sorting
+![Sorting](assets/readme/features/sortBy.png)
+- Within the Products page is a sort by filter which allows to do just that. Whether you are searching for the highest priced vehicle we have or the lowest, this filter will enable you to do so. Along with this you can sort by name a-z or z-a, rating as well as category.
+
+## Product Categories Mini
+![Product Categories Mini](assets/readme/features/productCategoriesMini.png)
+- When in the all products tab, along the below of the nav bar are mini categories that you can select to easily transfer between types of vehicles you want to perhaps purchase.
+
+## Shopping Cart
+![Shopping Cart](assets/readme/features/shoppingCart.png)
+- Once you have decided to purchase a product, you can add to your cart and see a notification on the top right hand side of the page luring you to a quick checkout.
+
+![Landing page](assets/readme/features/shoppingCart2.png)
+
+## Checkout Page
+![Checkout Page](assets/readme/features/checkout.png)
+- Once you have added all the products you wish to purchase, you can head to the checkout page which showcases all the products that have been added and their total price.
+- If you are successfull in purchasing a product you will receive a notification that it has been successful, you will then be routed into a whole page summary of your order along with where it is headed!
+
+![Notification Order Successful](assets/readme/features/notificationOrderSuccessful.png)
+
+![Order Confirmation Summary](assets/readme/features/orderConfirmation.png)
+
+## Design
+
+#### Colours
+![Colours Palete](assets/readme/extras/colorWheel.png)<br>
+
+The color scheme was kept simple and default, #FFFFFF #000000 were used to mimick a race flag whilst #DB3545 on the other hand for reaching the red line on a tachometer in the car. While these are the major colors that take up the site, there are minimal colors using the bootstrap package that allows a user to be aware of changes made in the site using toasts. Along with this, other minimal colors were used for CTA luring the user to click.
+
+#### Typography
+
+- The standard Lato font family was used as the main font for the whole site.
+
+#### Imagery
+
+- The images that were used in the site were taken from [radiocontrolledshop](https://www.radiocontrolledshop.ie/), they were then saved within the media folder in the project to which then moved to AWS's S3 Bucket to be stored along with static files.
 
 ### AWS S3 Bucket 
 
@@ -259,6 +349,21 @@ To get started, you will need a Stripe account, which you can sign up for [here]
 - [AWS](https://aws.amazon.com/)
 - was used to host the static files and media<br>
 
+## Creating the Django app
+
+1. Go to the Code Institute Gitpod Full Template [Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+2. Click on Use This Template
+3. Once the template is available in your repository click on Gitpod
+4. When the image for the template and the Gitpod are ready open a new terminal to start a new Django App
+5. Install Django and gunicorn: pip3 install django gunicorn
+6. Install supporting database libraries dj_database_url and psycopg2 library: pip3 install dj_database_url psycopg2
+7. Create file for requirements: in the terminal window type pip freeze --local > requirements.txt
+8. Create project: in the terminal window type django-admin startproject your_project_name
+9. Create app: in the terminal window type python3 manage.py startapp your_app_name
+10. Add app to the list of installed apps in settings.py file: you_app_name
+11. Migrate changes: in the terminal window type python3 manage.py migrate
+12. Run the server to test if the app is installed, in the terminal "The install worked successfully! Congratulations!"
+
 ## Deployment of This Project
 
 - This site was deployed by completing the following steps:
@@ -295,6 +400,7 @@ To get started, you will need a Stripe account, which you can sign up for [here]
 <li>Click "Enable Automatic Deploys" for automatic deployment when you push updates to GitHub.</li>
 </ol>
 <br>
+
 ## Forking This Project
 
 - In order to fork this project:

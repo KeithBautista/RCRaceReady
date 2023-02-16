@@ -26,6 +26,9 @@ README Table Content
         - [Typography](#typography)
     - [Admin Panel / Superuser](#admin-panel--superuser)
     - [Testing](#testing)
+        - [HTML](#html)
+        - [CSS](#css)
+        - [Python](#python)
     - [AWS S3 Bucket](#aws-s3-bucket)
     - [IAM Set Up](#iam-set-up)
     - [Connecting AWS to the Project](#connecting-aws-to-the-project)
@@ -143,7 +146,9 @@ Unfortunately with regards to the HTML there were 4 errors that had occured in w
 ![CSS](assets/readme/testing/cssValidation.png)
 After running the CSS Validator, all checks have been a success
 
-
+### Python
+![Python](assets/readme/testing/pythonValidation.png)
+Unfortunately at the time of testing (due date), pep8 validator was not working.
 
 ## AWS S3 Bucket 
 

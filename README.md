@@ -25,7 +25,7 @@ README Table Content
         - [Colours](#colours)
         - [Typography](#typography)
     - [Admin Panel / Superuser](#admin-panel--superuser)
-    - [AWS Setup Process](#aws-setup-process)
+    - [Testing](#testing)
     - [AWS S3 Bucket](#aws-s3-bucket)
     - [IAM Set Up](#iam-set-up)
     - [Connecting AWS to the Project](#connecting-aws-to-the-project)
@@ -132,6 +132,18 @@ The color scheme was kept simple and default, #FFFFFF #000000 were used to mimic
   <li>Products</li>
   <li>Profile</li>
 </ol>
+
+## Testing
+
+### HTML
+![HTML](assets/readme/testing/htmlValidation.png)
+Unfortunately with regards to the HTML there were 4 errors that had occured in which in the end I was not able to fix, along with one stray div in a pool 276 divs total in the file.
+
+### CSS
+![CSS](assets/readme/testing/cssValidation.png)
+After running the CSS Validator, all checks have been a success
+
+
 
 ## AWS S3 Bucket 
 
@@ -366,6 +378,10 @@ To get started, you will need a Stripe account, which you can sign up for [here]
 - GitHub is used to store the project's code after being pushed from Git
 - [Heroku](https://id.heroku.com)
 - Heroku was used to deploy the live project
+- [W3C - HTML](https://validator.w3.org/)
+- W3C- HTML was used to validate all the HTML code
+- [W3C - CSS](https://jigsaw.w3.org/css-validator/)
+- W3C - CSS was used to validate the CSS code
 - [PostgreSQL](https://www.elephantsql.com/)
 - Elephantsql Database used through Heroku.
 - [VSCode](https://code.visualstudio.com/)

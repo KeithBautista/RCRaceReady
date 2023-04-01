@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /profile/
+Disallow: /bag/
+Disallow: /admin/
+sitemap: https://rcraceready.herokuapp.com/sitemap.xml

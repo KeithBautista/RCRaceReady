@@ -110,24 +110,6 @@
             </div>
         </div>
     </div>
-    <br/><br/>
-    <hr>
-    <h2>Reviews by our customers</h2>
-    <br/>
-    {% if not product.reviews.all %}
-    
-        <p>No reviews on this product yet</p>
-
-    {% else %}
-
-        {% for review in product.reviews.all %}
-        <strong>{{ review.name }} - {{ review.date_added}}</strong>
-        <br/>
-        {{ review.body }}
-        {% endfor %}
-
-    {% endif %}
-    <br/><br/>
 {% endblock %}
 
 {% block postloadjs %}

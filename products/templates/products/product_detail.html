@@ -114,16 +114,16 @@
     <hr>
     <h2>Reviews by our customers</h2>
     <br/>
-    {% if not product.comments.all %}
+    {% if not product.reviews.all %}
     
-        <p>No Reviews on this product yet</p>
+        <p>No reviews on this product yet</p>
 
     {% else %}
 
-        {% for comment in product.comments.all %}
-        <strong>{{ comment.name }} - {{ comment.date_added}}</strong>
+        {% for review in product.reviews.all %}
+        <strong>{{ review.name }} - {{ review.date_added}}</strong>
         <br/>
-        {{ comment.body }}
+        {{ review.body }}
         {% endfor %}
 
     {% endif %}

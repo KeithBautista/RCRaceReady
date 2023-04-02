@@ -110,6 +110,21 @@
             </div>
         </div>
     </div>
+    <br/><br/>
+    <hr>
+    <h2>Reviews by our customers</h2>
+    <br/>
+    {% if not product.reviews.all %}
+    
+        <p>No reviews on this product yet</p>
+
+    {% else %}
+
+    <p>There is a review on this product</p>
+
+
+    {% endif %}
+    <br/><br/>
 {% endblock %}
 
 {% block postloadjs %}

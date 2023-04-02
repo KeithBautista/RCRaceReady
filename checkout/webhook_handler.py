@@ -52,8 +52,6 @@ class StripeWH_Handler:
         bag = intent.metadata.bag
         save_info = intent.metadata.save_info
 
-        print(intent)
-
         # Get the Charge object
         stripe_charge = stripe.Charge.retrieve(
             intent.latest_charge
@@ -109,7 +107,6 @@ class StripeWH_Handler:
                 attempt += 1
                 time.sleep(1)
         if order_exists:
-            self._send_confirmation_email(order)
             self._send_confirmation_email(order)
             return HttpResponse(
                 content=f'Webhook received: {event["type"]} | \

@@ -93,6 +93,8 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!--Buy Now Btn-->
+                                <button type="button" class="btn btn-danger"><a href="{% url 'product_detail' product.id %}" class="text-dark cool-link">Buy Now</a></button>
                             </div>
                         </div>
                         {% if forloop.counter|divisibleby:1 %}

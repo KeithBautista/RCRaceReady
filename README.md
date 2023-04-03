@@ -121,34 +121,8 @@ The color scheme was kept simple and default, #FFFFFF #000000 were used to mimic
 
 - The images that were used in the site were taken from [radiocontrolledshop](https://www.radiocontrolledshop.ie/), they were then saved within the media folder in the project to which then moved to AWS's S3 Bucket to be stored along with static files.
 
-## Admin Panel / Superuser
-
-![Admin Panel / Superuser](assets/readme/admin/adminProducts.png)
-
-- On the Admin Panel and as an admin/superuser I have full access to CRUD functionality. This means I can view, create, edit and
-  delete the following apps:
-
-<ol>
-  <li>Bag</li>
-  <li>Checkout</li>
-  <li>Home</li>
-  <li>Products</li>
-  <li>Profile</li>
-</ol>
-
 ## Testing
 
-### HTML
-![HTML](assets/readme/testing/htmlValidation.png)
-Unfortunately with regards to the HTML there were 4 errors that had occured in which in the end I was not able to fix, along with one stray div in a pool 276 divs total in the file.
-
-### CSS
-![CSS](assets/readme/testing/cssValidation.png)
-After running the CSS Validator, all checks have been a success
-
-### Python
-![Python](assets/readme/testing/pythonValidation.png)
-Unfortunately at the time of testing (due date), pep8 validator was not working.
 
 ## AWS S3 Bucket 
 

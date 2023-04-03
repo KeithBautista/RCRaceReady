@@ -40,37 +40,46 @@ Back to the [README](README.md)
 * [urls.py](assets/readme/testing/pythonValidation/urlsProfile.png)
 * [views.py](assets/readme/testing/pythonValidation/urlsProfile.png)
 
-## Performance
-
-Below is the report generated from lighthouse via Chrome DevTools for the Desktop website. Whilst this could be better, precautions I have taken have been to convert images to WEBP to enable a fast load time. Though I don't doubt there there are further changes that need to be made to maximize this.<br>
-
-<img src="readmeassets/lightHousePerformance.png">
-
 ## HTML Validation
-![HTML Validation Result](readmeassets/extras/validation/htmlValidation.png).
-* HTML was validated using W3 Validator, whilst there are no errors there are 2 warnings and 18 Info messages present.
+![HTML Validation Result](assets/readme/testing/htmlValidation.png)
+* Unfortunately with regards to the HTML there were 4 errors that had occured in which in the end I was not able to fix, along with one stray div in a pool 276 divs total in the file.
 
 ## CSS Validation
-![CSS Validation Result](readmeassets/extras/validation/cssValidation.png).
+![CSS Validation Result](assets/readme/testing/cssValidation.png)
 
 ## Backend/Admin Panel
-* I have repeatedly tested the Admin Panel since the start of the project's development. All the models are working without issues. I have successfully created, deleted, and updated data in all models without any errors. The models have the expected behavior for which they were built.
+![Admin Panel / Superuser](assets/readme/admin/adminProducts.png)
+
+- On the Admin Panel and as an admin/superuser I have full access to CRUD functionality. This means I can view, create, edit and
+  delete the following apps:
+
+<ol>
+  <li>Bag</li>
+  <li>Checkout</li>
+  <li>Home</li>
+  <li>Products</li>
+  <li>Profile</li>
+</ol>
 
 ## Manual Testing
 ### Frontend
-* The Signup, Login, and Logout system is working correctly and has no issues. It displays the appropriate interactive message to the users.
+* The Signup, Login, and Logout system is functioning correctly, displaying the appropriate interactive messages to users.
+* The Profile Page is operating smoothly, updating user information and showing the interactive message once the update is complete.
+* All internal links direct users to the correct page on the website, and all external links open the correct social media page in a new browser tab.
+* The dropdown menus in the navbar display a list of categories on every page of the website.
+* Interactive message is displayed at the top right of the page once the action is complete.
+* The ability to add/update/delete products, submitted by the website admin, is operating smoothly.
+* The stripe payment system is receiving the user's payment correctly.
+* Products can be filtered by different categories, and this process is functioning correctly.
 
-* The Profile Page is functioning properly. It updates the user's information and uploads/updates the user profile image. Once the update is complete, it shows the interactive message to the user.
+## Manual Test Case
+The Test case for this project can be found [here](TEST_CASE.md)  
 
-* The user profile image in the navbar and Post Details page is working without issues and displays the user's image when it is uploaded on the Profile Page.
+## Lighthouse
+Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on Desktop.
 
-* All internal links are functioning correctly and direct the user to the correct page on the website.
+##### Desktop Results:
+![Lighthouse Desktop Result](assets/readme/testing/lighthouseDesktop.png).
 
-* All external links are working correctly and direct the user to the correct social media page by opening a new browser tab.
-
-* The comment form is without issues and submits a new comment once the form is completed by any user.
-
-* On the Movie Page, the CRUD functionality is working without issues. Logged-in users can create a new post such as update or delete their own Movie Posts. Also, any post can be updated or deleted on this page by the Superuser.
-
-### Backend/Admin Panel
-* I have repeatedly tested the Admin Panel since the start of the project's development. All the models are working without issues. I have successfully created, deleted, and updated data in all models without any errors. The models have the expected behavior for which they were built.
+###### Mobile Results:
+![Lighthouse Mobile Result](assets/readme/testing/lighthouseMobile.png).

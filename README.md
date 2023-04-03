@@ -1,3 +1,13 @@
+# RCRaceReady - Introduction
+Project Milestone 5 for the Code Institute Development Program. <br><br>
+RCRaceReady is an ecommerce remote-controlled (RC) toy store offers an exciting range of cars, helicopters, and planes that are perfect for hobbyists and enthusiasts of all ages. The site is dedicated to bringing customers the best selection of RC toys at affordable prices, and they strive to ensure that their customers have a seamless shopping experience.
+[Live Project Here](https://rcraceready.herokuapp.com/)
+
+<img src="assets/readme/extras/amIresponsiveRCRaceReady.png"
+alt="RCRaceReady Am I Responsive screenshot">
+
+[Live Project Here](https://rcraceready.herokuapp.com/)
+
 
 README Table Content
 - [RCRaceReady](#rcraceready---introduction)
@@ -37,16 +47,6 @@ README Table Content
     - [Content](#content)
     - [Information Sources / Resources](#information-sources--resources)
   - [Special Thanks](#special-thanks)
-
-# RCRaceReady - Introduction
-Project Milestone 5 for the Code Institute Development Program. <br><br>
-RCRaceReady is an ecommerce remote-controlled (RC) toy store offers an exciting range of cars, helicopters, and planes that are perfect for hobbyists and enthusiasts of all ages. The site is dedicated to bringing customers the best selection of RC toys at affordable prices, and they strive to ensure that their customers have a seamless shopping experience.
-[Live Project Here](https://rcraceready.herokuapp.com/)
-
-<img src="assets/readme/extras/amIresponsiveRCRaceReady.png"
-alt="RCRaceReady Am I Responsive screenshot">
-
-[Live Project Here](https://rcraceready.herokuapp.com/)
 
 # Features
 

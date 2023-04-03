@@ -1,14 +1,6 @@
-# RCRaceReady - Introduction
-
-Project milestone 5 for Code Institute Full-stack development program: Django Framework.<br>
-RCReadyRace is an online store dedicated to providing the latest and greatest in remote controlled vehicles. Our inventory includes a wide variety of RC cars, trucks, planes, boats, and drones, perfect for both hobbyists and serious racers.
-
-This website features an intuitive and easy-to-navigate interface, allowing you to easily browse and select from our extensive selection of high-quality products. It offers detailed product descriptions, specifications, and customer reviews to help you make an informed purchasing decision.
-
-[Live Project Here](https://rcraceready.herokuapp.com/)
 
 README Table Content
-- [RCRaceReady](#design)
+- [RCRaceReady](#rcraceready---introduction)
     - [Features](#features)
         - [Home Page](#home-page)
         - [Navbar](#navbar)
@@ -24,11 +16,10 @@ README Table Content
     - [Design](#design)
         - [Colours](#colours)
         - [Typography](#typography)
-    - [Admin Panel / Superuser](#admin-panel--superuser)
+        - [Imagery](#imagery)
+        - [Wireframes](#wireframes)
+        - [Database Diagram](#database-diagram)
     - [Testing](#testing)
-        - [HTML](#html)
-        - [CSS](#css)
-        - [Python](#python)
     - [AWS S3 Bucket](#aws-s3-bucket)
     - [IAM Set Up](#iam-set-up)
     - [Connecting AWS to the Project](#connecting-aws-to-the-project)
@@ -46,6 +37,16 @@ README Table Content
     - [Content](#content)
     - [Information Sources / Resources](#information-sources--resources)
   - [Special Thanks](#special-thanks)
+
+# RCRaceReady - Introduction
+Project Milestone 5 for the Code Institute Development Program. <br><br>
+RCRaceReady is an ecommerce remote-controlled (RC) toy store offers an exciting range of cars, helicopters, and planes that are perfect for hobbyists and enthusiasts of all ages. The site is dedicated to bringing customers the best selection of RC toys at affordable prices, and they strive to ensure that their customers have a seamless shopping experience.
+[Live Project Here](https://rcraceready.herokuapp.com/)
+
+<img src="assets/readme/extras/amIresponsiveRCRaceReady.png"
+alt="RCRaceReady Am I Responsive screenshot">
+
+[Live Project Here](https://rcraceready.herokuapp.com/)
 
 # Features
 
@@ -120,6 +121,12 @@ The color scheme was kept simple and default, #FFFFFF #000000 were used to mimic
 ##  Imagery
 
 - The images that were used in the site were taken from [radiocontrolledshop](https://www.radiocontrolledshop.ie/), they were then saved within the media folder in the project to which then moved to AWS's S3 Bucket to be stored along with static files.
+
+##  Wireframes
+- Wireframes for this project are located [here](WIREFRAMES.md)
+
+##  Database Diagram
+![Database Diagram](assets/readme/extras/databaseDiagram.png)<br>
 
 ## Testing
 To find the manual testing results please click [here](TEST_CASE.md)<br>
@@ -329,6 +336,8 @@ To get started, you will need a Stripe account, which you can sign up for [here]
 <br>
 
 ## Technologies Used
+
+## Languages Used
 - [HTML 5](https://en.wikipedia.org/wiki/HTML/)
 - [CSS 3](https://en.wikipedia.org/wiki/CSS)
 - [JavaScript](https://www.javascript.com/)

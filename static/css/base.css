@@ -76,8 +76,8 @@ footer{
     border: 1px solid black !important;
 }
 
-.bg-black {
-    background: #000 !important;
+.bg-red {
+    background: #dc3545 !important;
 }
 
 .overlay {
@@ -113,7 +113,7 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
-/*Start of Underline Link Animation*/
+/*Start of Underline Link Animation WHITE*/
 .cool-link {
     display: inline-block;
     text-decoration: none;
@@ -131,6 +131,29 @@ input[name='q']::placeholder {
 }
 
 .cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+/*End of Underline Link Animation*/
+
+/*Start of Underline Link Animation RED*/
+.cool-link-nav {
+    display: inline-block;
+    text-decoration: none;
+    color: #000 !important;
+
+}
+
+.cool-link-nav::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #dc3545 !important;
+    transition: width .3s;
+}
+
+.cool-link-nav:hover::after {
     width: 100%;
     transition: width .3s;
 }

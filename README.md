@@ -23,6 +23,7 @@ README Table Content
         - [Shopping Cart](#shopping-cart)
         - [Checkout Page](#checkout-page)
         - [Privacy Policy](#privacy-policy)
+        - [Contact Us](#contact-us)
     - [Design](#design)
         - [Colours](#colours)
         - [Typography](#typography)
@@ -106,6 +107,10 @@ README Table Content
 ## Privacy Policy
 ![Privacy Policy](assets/readme/features/privacyPolicy.png)
 - As we collect user data it is vital to let our users know how we will collect, use, and protect their data. In turn which is why I have included a privacy policy under "More" in the navbar.
+
+## Contact Us
+![Contact Us](assets/readme/features/contactUs.png)
+- The contact us page allows users to place in their details which enables us as a business owner to respond to their requests.
 
 # Design
 

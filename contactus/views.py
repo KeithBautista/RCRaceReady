@@ -16,7 +16,7 @@ def contactUs(request):
         form = ContactForm(request.POST)
         if form.is_valid:
             # form.save()
-            messages.success(request, 'Your message has been sent!')
+            messages.success(request, 'Thank you for getting in contact! We will reach out to you shortly.')
             return HttpResponseRedirect('/contactus?submitted=True')
 
         else:

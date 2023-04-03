@@ -122,7 +122,8 @@ The color scheme was kept simple and default, #FFFFFF #000000 were used to mimic
 - The images that were used in the site were taken from [radiocontrolledshop](https://www.radiocontrolledshop.ie/), they were then saved within the media folder in the project to which then moved to AWS's S3 Bucket to be stored along with static files.
 
 ## Testing
-
+To find the manual testing results please click [here](TEST_CASE.md)<br>
+To find the validation, lighthouse results please click [here](TESTING.md)<br>
 
 ## AWS S3 Bucket 
 

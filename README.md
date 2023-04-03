@@ -30,6 +30,7 @@ README Table Content
         - [Imagery](#imagery)
         - [Wireframes](#wireframes)
         - [Database Diagram](#database-diagram)
+        - [Business Model](#business-model)
     - [Testing](#testing)
     - [AWS S3 Bucket](#aws-s3-bucket)
     - [IAM Set Up](#iam-set-up)
@@ -132,6 +133,12 @@ The color scheme was kept simple and default, #FFFFFF #000000 were used to mimic
 
 ##  Database Diagram
 ![Database Diagram](assets/readme/extras/databaseDiagram.png)<br>
+
+##  Business Model
+[Keywords Challenge](https://docs.google.com/spreadsheets/d/18EVzSxrN41_4AwSnjIZLjwLFof2XB2aX0Zz91h55yJc/edit?usp=sharing)<br>
+[Content Challenge](https://docs.google.com/document/d/1xo47v1a4GzaEzq5p_2_6vz44KEzUZcMLUMSJ5PmdybM/edit?usp=sharing)<br>
+[Marketing Challenge](https://docs.google.com/document/d/1riemnhv4mQ4VZ4yw7ZzYdkPSSJdo7C5HcqgRGXJClVQ/edit?usp=sharing)<br>
+
 
 ## Testing
 To find the manual testing results please click [here](TEST_CASE.md)<br>

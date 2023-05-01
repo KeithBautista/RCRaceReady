@@ -1,4 +1,5 @@
 from django.urls import path
+from .views import AddReviewView
 from . import views
 
 urlpatterns = [
@@ -8,4 +9,8 @@ urlpatterns = [
     path('edit/<int:product_id>/', views.edit_product, name='edit_product'),
     path('delete/<int:product_id>/', views.delete_product,
          name='delete_product'),
+    path(
+        '<int:product_id>/review/',
+        AddReviewView.as_view(),
+        name="add_review"),
 ]

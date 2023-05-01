@@ -111,6 +111,30 @@
         </div>
     </div>
 
+    <!--Comment Section -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
+                <div class="image-container my-5">
+                    <h2>Product Reviews</h2>
+                        {% if not product.reviews.all %}
+                            <p>No reviews yet on this product. <a href="{% url 'add_review' product.id %}">Add Review</a></p>
+                        {% else %}
+                            {% for review in product.reviews.all %}
+                                <strong>{{ review.name }} - 
+                                    {{ review.date_added}}
+                                </strong>
+                                <br/>
+                                {{ review.body }}
+                            {% endfor %}
+                        {% endif %}
+                        <br/>
+                        <a href="{% url 'add_review' product.id %}">Add Review</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
 {% endblock %}
 
 {% block postloadjs %}

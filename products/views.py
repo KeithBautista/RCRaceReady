@@ -1,10 +1,13 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.views.generic import CreateView
+from django.urls import reverse_lazy, reverse
+from django.http import HttpResponseRedirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
-from .models import Product, Category
+from .models import Product, Category, Review
 from .forms import ProductForm
 
 # Create your views here.
@@ -73,6 +76,13 @@ def product_detail(request, product_id):
     }
 
     return render(request, 'products/product_detail.html', context)
+
+
+class AddReviewView(CreateView):
+    model = Review
+    #form_class = AddCommentForm
+    template_name = 'products/add_review.html'
+    fields = '__all__'
 
 
 @login_required

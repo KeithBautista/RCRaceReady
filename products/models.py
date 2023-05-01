@@ -35,7 +35,7 @@ class Product(models.Model):
         return self.name
 
 
-""" class Review(models.Model):
+class Review(models.Model):
     product = models.ForeignKey(Product, related_name="reviews",
                                 on_delete=models.CASCADE)
     name = models.CharField(max_length=255)
@@ -44,4 +44,3 @@ class Product(models.Model):
 
     def __str__(self):
         return '%s - %s' % (self.product.name, self.name)
-"""

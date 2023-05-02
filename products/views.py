@@ -8,7 +8,7 @@ from django.db.models import Q
 from django.db.models.functions import Lower
 
 from .models import Product, Category, Review
-from .forms import ProductForm
+from .forms import ProductForm, ReviewForm
 
 # Create your views here.
 
@@ -80,9 +80,15 @@ def product_detail(request, product_id):
 
 class AddReviewView(CreateView):
     model = Review
-    #form_class = AddCommentForm
+    form_class = ReviewForm
     template_name = 'products/add_review.html'
-    fields = '__all__'
+
+    def form_valid(self, form):
+        form.instance.product_id = self.kwargs['product_id']
+        return super().form_valid(form)
+
+    def get_success_url(self):
+        return reverse_lazy('product_detail', kwargs={'product_id': self.kwargs['product_id']})
 
 
 @login_required

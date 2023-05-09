@@ -11,6 +11,10 @@ alt="RCRaceReady Am I Responsive screenshot">
 
 README Table Content
 - [RCRaceReady](#rcraceready---introduction)
+    - [UX](#user-experience)
+      - [User Stories](#user-stories)
+      - [Agile Methodology](#agile-methodology)
+      - [The Scope](#the-scope)
     - [Features](#features)
         - [Home Page](#home-page)
         - [Navbar](#navbar)
@@ -24,6 +28,8 @@ README Table Content
         - [Checkout Page](#checkout-page)
         - [Privacy Policy](#privacy-policy)
         - [Contact Us](#contact-us)
+        - [Product Review](#product-review)
+        - [Events](#events)
     - [Design](#design)
         - [Colours](#colours)
         - [Typography](#typography)
@@ -49,6 +55,51 @@ README Table Content
     - [Content](#content)
     - [Information Sources / Resources](#information-sources--resources)
   - [Special Thanks](#special-thanks)
+
+# User Experience
+
+## User Stories
+As a website user, I want to:
+
+1. Be able to navigate around the site easily and view the desired content.
+2. Be able to view a list of products and choose accordingly.
+3. Be able to search for a specific product.
+4. Be able to click on a product to read and view its details.
+5. Be able to register for an account to avail of the services offered to members.
+6. Be able to view product comments to read other users' opinions.
+7. Be able to buy a product by using the website checkout system.
+8. Be able to see any up coming events related to remote controlled vehicles.
+9. Be able to contact the site owner in case I have any queries.
+
+
+As a logged-in website user, I want to:
+
+1. Purchase a product using my own personal profile and save my details for future purchases.
+2. Save my data under a personal profile.
+3. Manage my profile and change details in case my address has changed.
+4. Logout of the site.
+5. Leave a review on a product.
+
+As a website Superuser, I want to:
+
+1. Create and Publish a new product whether it be from the site itself or from my admin page.
+2. Create a draft of a new product so that it can be finalized later.
+3. Create new users, products, categories, events.
+4. Delete, users, products, reviews, categories as well as events that may have already happened.
+5. Review any queries that have come through the contact us form.
+
+## Agile Methodology 
+All functionality and development of this project were managed using GitHub and can be found [here](https://github.com/KeithBautista/RCRaceReady/issues)
+
+## The Scope
+
+Objectives:
+
+- Provide users with an enjoyable website experience that allows them to purchase rc products with ease.
+- Provide a visually pleasing website that easy to navigate.
+- Provide a website that has a clear purpose.
+- Provide tools to the user in order to have ease of mind when purchasing ie. form to contact
+- Provide an easy and secure checkout process that uses visuals to enable the customer to have that confidence that they have successfully purchased a product.
 
 # Features
 

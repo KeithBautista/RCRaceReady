@@ -57,7 +57,6 @@ Back to the [README](README.md)
 
 ## HTML Validation
 ![HTML Validation Result](assets/readme/testing/htmlValidation.png)
-* Unfortunately with regards to the HTML there were 4 errors that had occured in which in the end I was not able to fix, along with one stray div in a pool 276 divs total in the file.
 
 ## CSS Validation
 ![CSS Validation Result](assets/readme/testing/cssValidation.png)

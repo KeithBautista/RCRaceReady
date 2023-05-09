@@ -45,7 +45,7 @@ README Table Content
     - [Search Engine Optimization](#search-engine-optimization)
         - [Sitemap XML](#sitemap-xml)
         - [Robot TXT](#robot-txt)
-        - [Sitemap Google Vegistration](#sitemap-google-verification)
+        - [Sitemap Google Verification](#sitemap-google-verification)
     - [AWS S3 Bucket](#aws-s3-bucket)
     - [IAM Set Up](#iam-set-up)
     - [Connecting AWS to the Project](#connecting-aws-to-the-project)
@@ -585,6 +585,7 @@ To get started, you will need a Stripe account, which you can sign up for [here]
 ## Content
 
 - All the products, their images and descriptions were taken from [radiocontrolledshop](https://www.radiocontrolledshop.ie/)
+- All the events as well as their images and descritions were taken from [EFRA RC Motorsport Europe](https://www.efra.ws/race-calendar/)
 
 ## Information Sources / Resources
 
@@ -593,4 +594,4 @@ To get started, you will need a Stripe account, which you can sign up for [here]
 - [Code Institute](https://codeinstitute.net/ie/)
 
 ## Special Thanks
-- Special thanks goes to Oisin in Tutor Assistance as well as the great videos created for Boutique Ado which helped immensely when creating this project
+- Special thanks goes to all the Tutors in Tutor Assistance as well as the great videos created for Boutique Ado which helped immensely when creating this project

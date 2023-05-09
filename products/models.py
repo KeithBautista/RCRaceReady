@@ -34,6 +34,8 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 
+# Model 1 Leaving Reviews on Product
+
 
 class Review(models.Model):
     product = models.ForeignKey(Product, related_name="reviews",

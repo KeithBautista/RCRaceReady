@@ -113,6 +113,14 @@ README Table Content
 ![Contact Us](assets/readme/features/contactUs.png)
 - The contact us page allows users to place in their details which enables us as a business owner to respond to their requests.
 
+## Product Review
+![Product Review](assets/readme/features/productReview.png)
+- The product review allows users to be able to leave a review on the product.
+
+## Events
+![Events](assets/readme/features/eventsPage.png)
+- The events page allows users to be able to access the page and find events that are RC Related around the world.
+
 # Design
 
 ## Colours

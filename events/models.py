@@ -2,6 +2,8 @@ from django.db import models
 
 # Create your models here.
 
+# Model 3 Adding Events
+
 
 class Event(models.Model):
     name = models.CharField(max_length=150)

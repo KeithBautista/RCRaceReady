@@ -2,6 +2,8 @@ from django.db import models
 
 # Create your models here.
 
+# Model 2 Contact Us
+
 
 class ContactUs(models.Model):
     class Meta:

@@ -40,6 +40,21 @@ Back to the [README](README.md)
 * [urls.py](assets/readme/testing/pythonValidation/urlsProfile.png)
 * [views.py](assets/readme/testing/pythonValidation/urlsProfile.png)
 
+#### RCRaceReady - ContactUs
+* [admin.py](assets/readme/testing/pythonValidation/adminContactUs.png)
+* [apps.py](assets/readme/testing/pythonValidation/appsContactUs.png)
+* [models.py](assets/readme/testing/pythonValidation/modelsContactUs.png)
+* [urls.py](assets/readme/testing/pythonValidation/urlsContactUs.png)
+* [views.py](assets/readme/testing/pythonValidation/viewsContactUs.png)
+* [forms.py](assets/readme/testing/pythonValidation/formsContactUs.png)
+
+#### RCRaceReady - Events
+* [admin.py](assets/readme/testing/pythonValidation/adminEvents.png)
+* [apps.py](assets/readme/testing/pythonValidation/appsEvents.png)
+* [models.py](assets/readme/testing/pythonValidation/modelsEvents.png)
+* [urls.py](assets/readme/testing/pythonValidation/urlsEvents.png)
+* [views.py](assets/readme/testing/pythonValidation/viewsEvents.png)
+
 ## HTML Validation
 ![HTML Validation Result](assets/readme/testing/htmlValidation.png)
 * Unfortunately with regards to the HTML there were 4 errors that had occured in which in the end I was not able to fix, along with one stray div in a pool 276 divs total in the file.
@@ -59,6 +74,8 @@ Back to the [README](README.md)
   <li>Home</li>
   <li>Products</li>
   <li>Profile</li>
+  <li>ContactUs</li>
+  <li>Events</li>
 </ol>
 
 ## Manual Testing

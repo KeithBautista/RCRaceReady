@@ -26,7 +26,6 @@ README Table Content
         - [Product Categories Mini](#product-categories-mini)
         - [Shopping Cart](#shopping-cart)
         - [Checkout Page](#checkout-page)
-        - [Privacy Policy](#privacy-policy)
         - [Contact Us](#contact-us)
         - [Product Review](#product-review)
         - [Events](#events)
@@ -38,6 +37,16 @@ README Table Content
         - [Database Diagram](#database-diagram)
         - [Business Model](#business-model)
     - [Testing](#testing)
+    - [Marketing and Social Media](#marketing-and-social-media)
+        - [Market Research](#market-research)
+        - [Facebook Page](#facebook-page)
+        - [Mailchimp Subscription Service](#mailchimp-subscription-service)
+        - [Privacy Policy](#privacy-policy)
+    - [Search Engine Optimization](#search-engine-optimization)
+        - [Market Research](#market-research)
+        - [Facebook Page](#facebook-page)
+        - [Mailchimp Subscription Service](#mailchimp-subscription-service)
+        - [Privacy Policy](#privacy-policy)
     - [AWS S3 Bucket](#aws-s3-bucket)
     - [IAM Set Up](#iam-set-up)
     - [Connecting AWS to the Project](#connecting-aws-to-the-project)
@@ -156,10 +165,6 @@ Objectives:
 
 ![Order Confirmation Summary](assets/readme/features/orderConfirmation.png)
 
-## Privacy Policy
-![Privacy Policy](assets/readme/features/privacyPolicy.png)
-- As we collect user data it is vital to let our users know how we will collect, use, and protect their data. In turn which is why I have included a privacy policy under "More" in the navbar.
-
 ## Contact Us
 ![Contact Us](assets/readme/features/contactUs.png)
 - The contact us page allows users to place in their details which enables us as a business owner to respond to their requests.
@@ -202,6 +207,38 @@ The color scheme was kept simple and default, #FFFFFF #000000 were used to mimic
 ## Testing
 To find the manual testing results please click [here](TEST_CASE.md)<br>
 To find the validation, lighthouse results please click [here](TESTING.md)<br>
+
+# Marketing and Social Media
+
+## Market Research
+Market research was conducted using statista to determine which social media site was most suitable to promote the RCRaceReady site. For social media marketing, Facebook still is the best and easiest option to promote products and brands to customers. It is one of the most used social media platforms with the age bracket 18-24 accounting for nearly 22% of the users using facebook. This being our ideal target audience for RCRaceReady, it was a done deal to utilize Facebook as our first social media platform to promote our products.
+
+Along with this I have found that at the moment there are currently 2 Billion 37 Million active users on Facebook which is on the trend to keep increasing.
+![Statista Active Users](assets/readme/extras/statistaActiveUsers.png)<br>
+Distribution of Daily Active Facebook Users worldwide as of 1st quarter of 2023 can be found [here](https://www.statista.com/statistics/346167/facebook-global-dau/)
+![Statista Distribution](assets/readme/extras/statistaDistribution.png)<br>
+Distribution of Facebook users worldwide as of January 2023, by age and gender [here](https://www.statista.com/statistics/376128/facebook-global-user-age-distribution/)
+
+## Facebook Page
+![Facebook Home Page](assets/readme/extras/rcracereadyHomePage.png)
+![Facebook About Page](assets/readme/extras/rcracereadyAboutPage.png)
+![Facebook Welcome Post](assets/readme/extras/rcracereadyWelcomePost.png)
+
+Live Facebook Page can be found [here](https://www.facebook.com/people/RCRaceReady/100091656601934/)
+
+## Mailchimp Subscription Service
+Embedded within the RCRaceReady Site, there is a newsletter subscription service at the footer. This enables users to be able to subscribe to the RCRaceReady newsletter and potentially receive pre go live news as well as offers. In exchange for this we are able to actively send newsletters to customers and inform them of any offers. This allows customers to be reminded that our site exists as well as an option for any of their needs.
+![Mail Chimp Contacts](assets/readme/extras/mailchimpContacts.png)
+
+## Privacy Policy
+- As we collect user data it is vital to let our users know how we will collect, use, and protect their data. In turn which is why I have included a privacy policy under "More" in the navbar.
+<br>
+<br>
+[Privacy Policy Generator](https://www.privacypolicygenerator.info/) was used to create the RCRaceReady Privacy Policy to ensure that the website is compliant with the European Privacy Policy Rules
+<br>
+<br>
+Please find the RCRaceReady Privacy Policy [here](https://www.privacypolicygenerator.info/live.php?token=j1hkjxFPwjJ8WtGQ5NQrMHhvbnBEhu2N) 
+![Privacy Policy](assets/readme/features/privacyPolicy.png)
 
 ## AWS S3 Bucket 
 

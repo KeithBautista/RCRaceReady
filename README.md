@@ -45,7 +45,7 @@ README Table Content
     - [Search Engine Optimization](#search-engine-optimization)
         - [Sitemap XML](#sitemap-xml)
         - [Robot TXT](#robot-txt)
-        - [Sitemap Google Registration](#sitemap-google-registration)
+        - [Sitemap Google Vegistration](#sitemap-google-verification)
     - [AWS S3 Bucket](#aws-s3-bucket)
     - [IAM Set Up](#iam-set-up)
     - [Connecting AWS to the Project](#connecting-aws-to-the-project)
@@ -244,7 +244,7 @@ The site was optimized using a selection of words related to Remote Controlled o
 ![Search Engine Optimization](assets/readme/extras/keywordsRCRaceReady.png)
 
 
-## Sitemap Txt
+## Sitemap Xml
 To ensure that search engines can easily navigate through the site and understand its structure, a sitemap file containing a list of important URLs was added. The following steps were followed using XML-sitemaps.com to create the sitemap file:
 
 1. The URL of the deployed site was pasted into XML-sitemaps.

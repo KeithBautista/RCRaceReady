@@ -486,17 +486,17 @@ To get started, you will need a Stripe account, which you can sign up for [here]
 ## Frameworks - Libraries - Programs Used
 
 - [Bootstrap](https://getbootstrap.com/)
-- Was used to style the website, add responsiveness and interactivity
+- Was used to style the website, add responsiveness and interactivity.
 - [Jquery](https://jquery.com/)
-- All the scripts were written using jquery library
+- All the scripts were written using jquery library.
 - [Git](https://git-scm.com/)
-- Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub
+- Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
 - [GitHub](https://github.com/)
-- GitHub is used to store the project's code after being pushed from Git
+- GitHub is used to store the project's code after being pushed from Git.
 - [Heroku](https://id.heroku.com)
-- Heroku was used to deploy the live project
+- Heroku was used to deploy the live project.
 - [W3C - HTML](https://validator.w3.org/)
-- W3C- HTML was used to validate all the HTML code
+- W3C- HTML was used to validate all the HTML code.
 - [W3C - CSS](https://jigsaw.w3.org/css-validator/)
 - W3C - CSS was used to validate the CSS code
 - [PostgreSQL](https://www.elephantsql.com/)
@@ -504,13 +504,18 @@ To get started, you will need a Stripe account, which you can sign up for [here]
 - [VSCode](https://code.visualstudio.com/)
 - VSCode was used to create and edit the website
 - [Fontawesome](https://fontawesome.com/)
-- Was used to add icons to the website
+- Was used to add icons to the website.
 - [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
-- To check App responsiveness and debugging
+- To check App responsiveness and debugging.
 - [Google Fonts](https://fonts.google.com/)
-- To add the 2 fonts that were used throughout the project
+- To add the 2 fonts that were used throughout the project.
 - [AWS](https://aws.amazon.com/)
-- was used to host the static files and media<br>
+- was used to host the static files and media.
+- [UIDev](https://ui.dev/amiresponsive)
+- was used for the am i responsive image at the beginning of this readme.
+- [LucidChart](https://lucid.app/documents#/documents?folder_id=recent)
+- was used to create the database diagram.
+<br>
 
 ## Creating the Django app
 

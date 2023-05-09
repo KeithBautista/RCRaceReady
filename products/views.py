@@ -88,7 +88,8 @@ class AddReviewView(CreateView):
         return super().form_valid(form)
 
     def get_success_url(self):
-        return reverse_lazy('product_detail', kwargs={'product_id': self.kwargs['product_id']})
+        return reverse_lazy('product_detail',
+                            kwargs={'product_id': self.kwargs['product_id']})
 
 
 @login_required

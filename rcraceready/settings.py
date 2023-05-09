@@ -118,7 +118,7 @@ CCOUNT_AUTHENTICATION_METHOD = 'username_email'  # authentication using emails
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True  # needs to be inputted twice
-ACCOUNT_USERNAME_MIN_LENGTH = 4 # minimum length
+ACCOUNT_USERNAME_MIN_LENGTH = 4  # minimum length
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 

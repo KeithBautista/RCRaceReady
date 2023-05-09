@@ -43,10 +43,9 @@ README Table Content
         - [Mailchimp Subscription Service](#mailchimp-subscription-service)
         - [Privacy Policy](#privacy-policy)
     - [Search Engine Optimization](#search-engine-optimization)
-        - [Market Research](#market-research)
-        - [Facebook Page](#facebook-page)
-        - [Mailchimp Subscription Service](#mailchimp-subscription-service)
-        - [Privacy Policy](#privacy-policy)
+        - [Sitemap XML](#sitemap-xml)
+        - [Robot TXT](#robot-txt)
+        - [Sitemap Google Registration](#sitemap-google-registration)
     - [AWS S3 Bucket](#aws-s3-bucket)
     - [IAM Set Up](#iam-set-up)
     - [Connecting AWS to the Project](#connecting-aws-to-the-project)
@@ -239,6 +238,27 @@ Embedded within the RCRaceReady Site, there is a newsletter subscription service
 <br>
 Please find the RCRaceReady Privacy Policy [here](https://www.privacypolicygenerator.info/live.php?token=j1hkjxFPwjJ8WtGQ5NQrMHhvbnBEhu2N) 
 ![Privacy Policy](assets/readme/features/privacyPolicy.png)
+
+# Search Engine Optimization
+The site was optimized using a selection of words related to Remote Controlled or RC. The entire table showcases phrases that may be searched when looking for a site that sells RC Vehicles. Topics that meet the criteria such as being too long or too vague have been automatically removed. Topics were also tested out within multiple search engines to see the results and the relevent returned search suggestions from said search engine were place within this table.
+![Search Engine Optimization](assets/readme/extras/keywordsRCRaceReady.png)
+
+
+## Sitemap Txt
+To ensure that search engines can easily navigate through the site and understand its structure, a sitemap file containing a list of important URLs was added. The following steps were followed using XML-sitemaps.com to create the sitemap file:
+
+1. The URL of the deployed site was pasted into XML-sitemaps.
+2. The XML sitemap file was downloaded.
+3. The downloaded file was added into the root folder of the project and named as sitemap.xml.
+
+## Robot Txt
+To improve the SEO rating of the website and enhance its quality, a robots.txt file was created. This file specifies the areas of the website that search engines should not crawl.
+![Robot Txt](assets/readme/extras/robotsRCRaceReady.png)
+
+
+## Sitemap Google Verification
+To ensure that the Google Engine will search the websites' sitemap, I have registered RCRaceReady url on the Google Search Console. In order to do this via HTML tag, Google generated a tag that I have copied and pasted base html page within the header tag. Once completed, I then pushed the changes live and validated within Google Seach Console.<br>
+![Sitemap Google Verification](assets/readme/extras/sitemapGoogleVerification.png)
 
 ## AWS S3 Bucket 
 
